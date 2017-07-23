@@ -1,0 +1,7 @@
+{
+  "history": {
+    "dbConfig": {
+      "url": "mongodb://vuotoadmin:adminPass123#@tada-shard-00-00-fonlr.mongodb.net:27017,tada-shard-00-01-fonlr.mongodb.net:27017,tada-shard-00-02-fonlr.mongodb.net:27017/tada?ssl=true&replicaSet=tada-shard-0&authSource=admin"
+    }
+  }
+}
