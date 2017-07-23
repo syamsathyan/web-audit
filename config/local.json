@@ -1,0 +1,7 @@
+{
+  "history": {
+    "dbConfig": {
+      "url": "mongodb://localhost:27017/<DB>?ssl=false"
+    }
+  }
+}
