@@ -6,6 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 const mongoUtil = require('./db/mongoUtil');
 
+var config = require('config');
+console.log('NODE_ENV: ' + config.util.getEnv('NODE_ENV'));
 mongoUtil.connectToServer( function( err ) {
     // start the rest of your app here
     if(!err){
