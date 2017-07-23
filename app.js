@@ -31,6 +31,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+/** Intercept All Requests for Pagination **/
 app.use(function (req, res, next) {
     if(!req.query.limit || req.query.limit <= 0){
         req.query.limit = 20;
